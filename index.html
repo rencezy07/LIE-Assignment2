@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/film.webp" type="image/png" sizes="16x20" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <title>Entertainment Website</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">
+          <img src="images/movielogo.jpg" alt="logo" />
+        </a>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul id="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#action">Movies</a></li>
+          <li><a href="#tvseries">TV Series</a></li>
+          <li><a href="#">Audio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- carousel full display -->
+    <div class="carousel">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <iframe
+            width="1300"
+            height="415"
+            src="https://www.youtube.com/embed/JfVOs4VSpmA?si=K33N47glOg6ChYyg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="mySlides fade">
+          <iframe
+            width="1300"
+            height="415"
+            src="https://www.youtube.com/embed/73_1biulkYk?si=0WRvW_5tM_QMUiH4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="mySlides fade">
+          <iframe
+            width="1300"
+            height="415"
+            src="https://www.youtube.com/embed/Ke1Y3P9D0Bc?si=GkvawbTo4kOsWIFz"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </div>
+
+    <!-- header popular in action bottom border
+add images of movie with bold names on it and subheading -->
+    <section>
+      <h1 id="action" class="pop-action">Popular in Action</h1>
+      <div class="images">
+        <div class="box action">
+          <img src="images/endgame.jpg" alt="" />
+          <div class="text">
+            <h3>Avengers: Endgame</h3>
+            Thriller, Sperhero & Adventure.
+          </div>
+        </div>
+        <div class="box action">
+          <img src="images/capamerica.jpg" alt="" />
+          <div class="text">
+            <h3>Captain America</h3>
+            "Patriotic hero battles global threats."
+          </div>
+        </div>
+        <div class="box action">
+          <img src="images/a3.jpg" alt="" />
+          <div class="text">
+            <h3>Japanese Marvel</h3>
+            A Marvel Comics superhero team.
+          </div>
+        </div>
+        <div class="box action">
+          <img src="images/thor.jpg" alt="" />
+          <div class="text">
+            <h3>Thor</h3>
+            "God battles to protect realms."
+          </div>
+        </div>
+        <div class="box action">
+          <img src="images/hacksaw-ridge.webp" alt="" />
+          <div class="text">
+            <h3>Hacksaw Ridge</h3>
+            "Heroic medic in WWII battle."
+          </div>
+        </div>
+        <div class="box action">
+          <img src="images/ironman.jpg" alt="" />
+          <div class="text">
+            <h3>Iron Man 3</h3>
+            "Billionaire builds high-tech armor."
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="pop-action">Popular in Drama</h1>
+      <div class="images">
+        <div class="box drama">
+          <img src="images/d1.jpg" alt="" />
+          <div class="text">
+            <h3>The Nun</h3>
+            2016 ‧ Fantasy/Science Fiction.
+          </div>
+        </div>
+        <div class="box drama">
+          <img src="images/d2.jpg" alt="" />
+          <div class="text">
+            <h3>Avengers</h3>
+            Indian crime tragedy film.
+          </div>
+        </div>
+        <div class="box drama">
+          <img src="images/d3.jpg" alt="" />
+          <div class="text">
+            <h3>Aquaman</h3>
+            Thriller, Mystery & Comedy.
+          </div>
+        </div>
+        <div class="box drama">
+          <img src="images/d4.jpg" alt="" />
+          <div class="text">
+            <h3>Tomb Raider</h3>
+            A Marvel Comics superhero team.
+          </div>
+        </div>
+        <div class="box drama">
+          <img src="images/d5.jpg" alt="" />
+          <div class="text">
+            <h3>FIGHTCLUB</h3>
+            American martial arts film.
+          </div>
+        </div>
+        <div class="box drama">
+          <img src="images/d6.jpg" alt="" />
+          <div class="text">
+            <h3>Myaoekai</h3>
+            Indian crime tragedy film.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tvseries">
+      <h1 class="pop-action">TV Series</h1>
+      <div class="images">
+        <div class="box sci-fi">
+          <img src="images/s1.jpg" alt="" />
+          <div class="text">
+            <h3>Red Wars</h3>
+            Chinese crime thriller.
+          </div>
+        </div>
+        <div class="box sci-fi">
+          <img src="images/s2.jpg" alt="" />
+          <div class="text">
+            <h3>Florida</h3>
+            Documentary eastern eravel.
+          </div>
+        </div>
+        <div class="box sci-fi">
+          <img src="images/s3.jpg" alt="" />
+          <div class="text">
+            <h3>That Thing</h3>
+            Thriller Romance Drama film.
+          </div>
+        </div>
+        <div class="box sci-fi">
+          <img src="images/s4.jpg" alt="" />
+          <div class="text">
+            <h3>First Five</h3>
+            South Korean Entertainment.
+          </div>
+        </div>
+        <div class="box sci-fi">
+          <img src="images/s5.jpg" alt="" />
+          <div class="text">
+            <h3>Shrooms</h3>
+            A Marvel Comics superhero team.
+          </div>
+        </div>
+        <div class="box sci-fi">
+          <img src="images/s6.jpg" alt="" />
+          <div class="text">
+            <h3>Superman</h3>
+            Indian comedy & Romance.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="audio">
+      <h1 class="pop-action">Audio</h1>
+      <div class="images">
+        <div class="box audio">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/01r5Imd2Zq78PKzx4vgul7?utm_source=generator"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowTransparency="true"
+            allow="encrypted-media"
+            loading="lazy"
+          ></iframe>
+          <div class="text">
+            <h3>Segundo</h3>
+            Relaxing music for stress relief.
+          </div>
+        </div>
+        <div class="box audio">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/1imaIe1NEAaWnLF0BY0V6F?utm_source=generator"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowTransparency="true"
+            allow="encrypted-media"
+            loading="lazy"
+          ></iframe>
+          <div class="text">
+            <h3>Sining</h3>
+            Perfect background music for your love ones.
+          </div>
+        </div>
+        <div class="box audio">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/2LBqCSwhJGcFQeTHMVGwy3?utm_source=generator"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowTransparency="true"
+            allow="encrypted-media"
+            loading="lazy"
+          ></iframe>
+          <div class="text">
+            <h3>Epic Soundtracks</h3>
+            Powerful orchestral music for inspiration.
+          </div>
+        </div>
+        <div class="box audio">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/2dMQ4FbQcrEWVFK6NIFjrl?utm_source=generator"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowTransparency="true"
+            allow="encrypted-media"
+            loading="lazy"
+          ></iframe>
+          <div class="text">
+            <h3>Relaxing Rain Sounds</h3>
+            Nature sounds for meditation and sleep.
+          </div>
+        </div>
+        <div class="box audio">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/4SqWKzw0CbA05TGszDgMlc?utm_source=generator"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowTransparency="true"
+            allow="encrypted-media"
+            loading="lazy"
+          ></iframe>
+          <div class="text">
+            <h3>Instrumental Hits</h3>
+            Timeless instrumental music across genres.
+          </div>
+        </div>
+        <div class="box audio">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/3qhlB30KknSejmIvZZLjOD?utm_source=generator"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowTransparency="true"
+            allow="encrypted-media"
+            loading="lazy"
+          ></iframe>
+          <div class="text">
+            <h3>Lo-fi Beats</h3>
+            Chill beats for studying and relaxation.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer with logo and cotent and animation like header -->
+    <footer>
+      <p>
+        Powered by Laurence Jay Perez 2024.LIE Assignment 2. All Rights
+        Reserved.
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
